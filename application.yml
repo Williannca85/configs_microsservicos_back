@@ -18,3 +18,4 @@ info:
   mail: teste@email.com
 server:
   port: ${PORT:9999}
+message: Olá Mundo!!!
