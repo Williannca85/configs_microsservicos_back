@@ -14,7 +14,7 @@ management:
     health:
       show-details: always
 info:
-  author: Tulio L. Viglione
-  mail: tulio.l.viglione@gmail.com
+  author: Willian Almeida
+  mail: teste@email.com
 server:
   port: ${PORT:9999}
