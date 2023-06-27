@@ -1,0 +1,19 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  info:
+    env:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+info:
+  author: Willian Almeida
+  github: https://github.com/Williannca85
+  task: Checkpoint I
+server:
+  port: ${PORT:9991}
+message: ONLINE
